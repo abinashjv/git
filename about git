@@ -1,0 +1,74 @@
+INTRODUCTION OF GITHUB:
+     *GitHub (/ˈɡɪthʌb/) is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.
+
+     *It is commonly used to host open source software development projects.As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023.
+HISTORY OF GITHUB:
+     *The GitHub service was developed by Chris Wanstrath, P. J. Hyett, Tom Preston-Werner, and Scott Chacon using Ruby on Rails, and started in February 2008. The company, GitHub, Inc., has existed as of 2007 and is located in San Francisco.
+
+     *The shading of the map illustrates the number of users as a proportion of each country's Internet population. The circular charts surrounding the two hemispheres depict the total number of GitHub users (left) and commits (right) per country.
+     *On February 24, 2009, GitHub announced that within the first year of being online, GitHub had accumulated over 46,000 public repositories, 17,000 of which were formed in the previous month. At that time, about 6,200 repositories had been forked at least once, and 4,600 had been merged.
+
+     *That same year, the site was used by over 100,000 users, according to GitHub, and had grown to host 90,000 unique public repositories, 12,000 having been forked at least once, for a total of 135,000 repositories.
+
+     *In 2010, GitHub was hosting 1 million repositories. A year later, this number doubled. ReadWriteWeb reported that GitHub had surpassed SourceForge and Google Code in total number of commits for the period of January to May 2011. On January 16, 2013, GitHub passed the 3 million users mark and was then hosting more than 5 million repositories. By the end of the year, the number of repositories was twice as great, reaching 10 million repositories.
+
+     *In 2015, GitHub opened an office in Japan, its first outside of the U.S. In 2016, GitHub was ranked No. 14 on the Forbes Cloud 100 list. It was not featured on 2018, 2019, and 2020 lists.
+
+     *On February 28, 2018, GitHub fell victim to the third-largest distributed denial-of-service (DDoS) attack in history, with incoming traffic reaching a peak of about 1.35 terabits per second.
+
+     *On June 19, 2018, GitHub expanded its GitHub Education by offering free education bundles to all schools.
+     1. Version Control with Git:
+Repository Management: GitHub allows you to create and manage repositories, where you can store your project's files and track changes over time using Git, a distributed version control system.
+Branching and Merging: GitHub facilitates branching, where you can create independent lines of development, and merging, where changes from different branches can be combined.
+     2. Collaboration Tools:
+Pull Requests: A pull request is a mechanism for developers to propose changes to a project, review code, discuss, and integrate contributions into the main codebase.
+Code Reviews: GitHub provides tools for reviewing code, allowing teams to discuss changes, comment on specific lines, and suggest improvements before merging.
+Issues and Project Management: GitHub offers issue tracking to report bugs, request features, and manage tasks. It also integrates project management tools like GitHub Projects and Kanban boards.
+     3. Integration and Automation:
+GitHub Actions: A CI/CD (Continuous Integration/Continuous Deployment) tool that automates testing, building, and deploying code directly from your repository.
+Webhooks and API: GitHub provides webhooks and a robust API that allows integration with other tools, automating workflows, and extending GitHub’s capabilities.
+    4 . Security Features:
+Dependabot: Automatically scans your repository for vulnerabilities in dependencies and can automatically create pull requests to update them.
+Code Scanning and Secret Scanning: GitHub offers automated tools to scan your codebase for security vulnerabilities and exposed secrets.
+     5. Documentation and Wikis:
+README Files: A simple way to provide an overview of the project, instructions, and documentation right in the repository.
+Wikis: Each repository can have its own wiki, where detailed project documentation, guides, and other resources can be collaboratively maintained.
+     6. Community and Social Features:
+GitHub Pages: A feature to host static websites directly from a GitHub repository, often used for project documentation or personal websites.
+Stars and Forking: Users can star repositories to show appreciation or bookmark them, and fork repositories to create their own copy to work on independently.
+Contributions and Insights: GitHub provides insights into a repository’s activity, including contributions, commits, and pull requests.
+     7. Hosting and Deployment:
+GitHub Pages: Hosting static websites from repositories, often used for documentation or project promotion.
+GitHub Codespaces: A cloud-based development environment integrated with GitHub, allowing you to code directly in your browser.
+BASIC GIT COMMANDS:
+git init
+
+Initializes a new Git repository in the current directory.
+git clone <repository_url>
+
+Creates a copy of an existing Git repository from a remote server to your local machine.
+git status
+
+Displays the state of the working directory and staging area, showing changes that are staged, unstaged, and untracked.
+git add <file>
+
+Adds specific files from the working directory to the staging area, preparing them to be committed.
+git commit -m "<message>"
+
+Records changes in the repository with a descriptive message.
+git push
+
+Uploads local repository content to a remote repository, sharing your commits with others.
+git pull
+
+Fetches changes from a remote repository and merges them into the current branch.
+git branch
+
+Lists all branches in the repository. The current branch is highlighted with an asterisk (*).
+git branch <branch_name> creates a new branch.
+git checkout <branch_name>
+
+Switches to the specified branch.
+git merge <branch_name>
+
+Merges the specified branch into the current branch.
